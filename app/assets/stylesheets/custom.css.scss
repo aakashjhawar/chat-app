@@ -9,7 +9,13 @@
 	height: 430px;
 }
 
-#messages{
+#messages {
 	overflow: auto;
 	height: 15em;
+}
+
+.input {
+	button {
+		display: none;
+	}
 }
