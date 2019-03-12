@@ -1,24 +1,40 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a web app which can chat in real-time using the [Rails](http://rubyonrails.org) framework.
 
-Things you may want to cover:
+Heroku: https://investry.herokuapp.com/
 
-* Ruby version
+### Requirements
+* Rails 5.2.2
+* PostgreSQL
 
-* System dependencies
+### Running Locally
 
-* Configuration
+Make sure you have [Ruby](https://www.ruby-lang.org), [Bundler](http://bundler.io) installed.
 
-* Database creation
+```sh
+git clone https://github.com/aakashjhawar/ChatApp.git #You can also clone your own fork
+cd ChatApp
+bundle install
+rails db:create
+rails db:create
+rails s
+```
+Your app should now be running on [localhost:3000](http://localhost:3000/).
 
-* Database initialization
+## Deploying to Heroku
 
-* How to run the test suite
+```
+heroku create
+git push heroku master
+heroku run rake db:migrate
+heroku open
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Documentation
 
-* Deployment instructions
+For more information about using Ruby on Heroku, see these Dev Center articles:
 
-* ...
+- [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
+- [Getting Started with Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby)
+- [Heroku Ruby Support](https://devcenter.heroku.com/articles/ruby-support)
