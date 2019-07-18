@@ -2,7 +2,6 @@
 
 This is a web app which can chat in real-time using the [Rails](http://rubyonrails.org) framework.
 
-Heroku: https://investry.herokuapp.com/
 
 ### Requirements
 * Rails 5.2.2
