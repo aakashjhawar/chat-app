@@ -1,6 +1,6 @@
 # README
 
-This is a web app in which user can chat in real-time built using the [Rails](http://rubyonrails.org) framework.
+This is a RoR web app in which user can chat in real-time built using the [Rails](http://rubyonrails.org) framework.
 
 
 ### Requirements
